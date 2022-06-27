@@ -115,6 +115,10 @@ form button {
   width: 100%;
 }
 
+.left-justified {
+  text-align: left;
+}
+
 /* -------  Footer ------- */
 
 footer {
