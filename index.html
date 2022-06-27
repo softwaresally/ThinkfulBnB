@@ -22,10 +22,10 @@
       <div class="logo">Thinkfulbnb</div>
       <nav>
         <ul id="menu">
-          <li><a>Stay</a></li>
-          <li><a>About</a></li>
-          <li><a>Ideas</a></li>
-          <li><a>Host</a></li>
+          <li><a href="#stay">Stay</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#ideas">Ideas</a></li>
+          <li><a href="#host">Host</a></li>
         </ul>
       </nav>
     </header>
@@ -34,9 +34,35 @@
       <!-- Stay -->
       <section id="stay">
         <h2>Find the perfect vacation rental</h2>
-        <!-- Create a form here -->
+          <form>
+          <!-- Create a form here -->
+          <div>
+            <label for="location">Location</label>
+            <input id="location" type="text" name="location" placeholder="Search destination" />
+          </div>
+          <div>
+            <label for="arrive">Arrive</label>
+            <input id="arrive" type="date" name="arrive" />
+          </div>
+          <div>
+            <label for="depart">Depart</label>
+            <input id="depart" type="date" name="depart" />
+          </div>
+          <div>
+            <label for="types">Type</label>
+              <select name="types" id="types" size="1">
+                <option value="apartment">Apartment</option>
+                <option value="barn">Barn</option>
+                <option value="castle">Castle</option>
+                <option value="houseboat">Houseboat</option>
+                <option value="tiny house">Tiny House</option>
+                <option value="yacht">Yacht</option>
+                <option value="yurt">Yurt</option>
+              </select>
+          </div>
+          <button type="search">Search</button>
+        </form>
       </section>
-
       <!-- About -->
       <section id="about" class="alternate-background">
         <h2>About</h2>
