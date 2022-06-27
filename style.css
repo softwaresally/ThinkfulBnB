@@ -23,6 +23,7 @@ p {
 
 section {
   padding: 20px;
+  align-content: center;
 }
 
 section.alternate-background {
@@ -33,6 +34,11 @@ section.alternate-background {
 main img {
   width: 100%;
   padding: 20px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#about {
   display: flex;
   flex-direction: column;
 }
@@ -87,6 +93,10 @@ header nav ul li a:hover {
   text-decoration: none;
 }
 
+.left-justified {
+  text-align: left;
+}
+
 /* -------  Search Form ------- */
 form {
   border: 2px solid #ff385c;
@@ -96,8 +106,7 @@ form {
 
 form label {
   font-weight: bold;
-  display: inline-block;
-  text-align: left;
+  display: inline-block; 
 }
 
 form select,
@@ -115,8 +124,10 @@ form button {
   width: 100%;
 }
 
-.left-justified {
-  text-align: left;
+form div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 /* -------  Footer ------- */
@@ -146,5 +157,28 @@ footer p {
   }
 
   nav ul li {
-    display: flex;  }
+    display: flex;  
+    flex-direction: row;
+    align-items: right;
+    text-align: right;
+  }
+
+  form {
+    display: flex;
+  }
+
+  form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-between;
+  }
+
+  #about {
+    display: flex;
+  }
+
+  img {
+    max-width: 400px;
+  }
 }
