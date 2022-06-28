@@ -212,18 +212,48 @@ footer p {
     text-align: left;
   }
 
-  #ideas img{
-    display: flex;
-    flex-direction: block;
+  .grid {
+    flex-direction: row;
   }
 
-  #host h2 p {
+  .grid div {
+    width: 50%;
+  }
+
+  .grid img {
+    width: 50%;
+  }
+
+ /* #host {
+    display: flex;
+    text-align: center;
+  } */
+
+/*  #host h2 p {
+    display: flex;
+    flex-direction: column;
+    flex-grow: .5;
+  } */
+
+  #host img {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
   }
 
   img {
-    max-width: 400px;
+    max-width: 500px;
+    flex: 1;
+  } 
+
+  .host-text {
+    flex: 1;
+  }
+
+  .host {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
   }
 }
