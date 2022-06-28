@@ -147,7 +147,8 @@ footer p {
 @media all and (min-width: 480px) {
   header {
     display: flex;
-    justify-content: space-between;
+    align-items: flex-start;
+    
   }
 
   section {
@@ -156,11 +157,14 @@ footer p {
     flex-direction: row;
   }
 
+  nav {
+    position: absolute;
+    right: 0;
+  }
+
   nav ul li {
     display: flex;  
     flex-direction: row;
-    align-items: right;
-    text-align: right;
   }
 
   form {
