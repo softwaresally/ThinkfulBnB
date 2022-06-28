@@ -241,18 +241,21 @@ footer p {
     max-width: 500px;
   } 
 
-  .host-text {
+  #host {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #host h2 p {
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
   }
 
   .host {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: left;
     align-items: center;
   } 
-
-  .host div {
-    flex-grow: 1;
-  }
 }
