@@ -59,6 +59,12 @@ main img {
   flex: 2;
 }
 
+.container {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: ;
+}
+
 /* -------  Navigation ------- */
 
 header {
@@ -145,6 +151,10 @@ footer p {
 /* -------  Media Query ------- */
 
 @media all and (min-width: 480px) {
+  body {
+    display: block;
+  }
+
   header {
     display: flex;
     align-items: flex-start;
@@ -155,6 +165,7 @@ footer p {
     align-content: center;
     text-align: center;
     flex-direction: row;
+    padding: 20px;
   }
 
   nav {
@@ -169,13 +180,24 @@ footer p {
 
   form {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  /*  flex-direction: row; */
+    justify-content: space-between;
+    padding: 10px;
   }
 
   form div {
     display: flex;
     flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  form label {
+    align-content: flex-start;
+  }
+
+  #about img {
+    padding: 10px;
   }
 
   #about div {
@@ -186,17 +208,19 @@ footer p {
   }
 
   #about p {
-    align-content: flex-start;
+    padding: 10px;
+    text-align: left;
   }
 
   #ideas img{
     display: flex;
-    flex-direction: column;
+    flex-direction: block;
   }
 
   #host h2 p {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
   }
 
   img {
