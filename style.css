@@ -169,17 +169,34 @@ footer p {
 
   form {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
 
   form div {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-content: space-between;
   }
 
-  #about {
+  #about div {
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #about p {
+    align-content: flex-start;
+  }
+
+  #ideas img{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #host h2 p {
+    display: flex;
+    flex-direction: column;
   }
 
   img {
