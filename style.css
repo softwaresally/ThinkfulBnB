@@ -227,6 +227,7 @@ footer p {
   .ideasContainer {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .ideas {
@@ -239,11 +240,12 @@ footer p {
 
   img {
     max-width: 500px;
+    margin: 10px;
   } 
 
   #host {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   #host h2 p {
@@ -254,7 +256,7 @@ footer p {
 
   .host {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: left;
     align-items: center;
   } 
