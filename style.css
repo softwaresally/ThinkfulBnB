@@ -107,7 +107,6 @@ header nav ul li a:hover {
 form {
   border: 2px solid #ff385c;
   padding: 10px;
-  justify-content: space-evenly;
 }
 
 form label {
@@ -180,7 +179,6 @@ footer p {
 
   form {
     display: flex;
-  /*  flex-direction: row; */
     justify-content: space-between;
     padding: 10px;
   }
@@ -190,6 +188,7 @@ footer p {
     flex-direction: column;
     padding-left: 10px;
     padding-right: 10px;
+    text-align: left;
   }
 
   form label {
@@ -198,6 +197,8 @@ footer p {
 
   #about img {
     padding: 10px;
+    display: flex;
+    flex-grow: 1;
   }
 
   #about div {
@@ -210,40 +211,34 @@ footer p {
   #about p {
     padding: 10px;
     text-align: left;
+    flex-grow: 2;
   }
 
-  .grid {
-    flex-direction: row;
-  }
-
-  .grid div {
-    width: 50%;
-  }
-
-  .grid img {
-    width: 50%;
-  }
-
- /* #host {
+  #ideas img {
     display: flex;
-    text-align: center;
-  } */
+    flex-direction: block;
+    flex-grow: 1; 
+  }
 
-/*  #host h2 p {
-    display: flex;
-    flex-direction: column;
-    flex-grow: .5;
-  } */
+  #ideas div {
+    justify-content: space-evenly;
+  }
 
-  #host img {
+  .ideasContainer {
     display: flex;
-    flex-direction: column;
-    flex-grow: 1;
+    flex-wrap: wrap;
+  }
+
+  .ideas {
+    flex-basis: 50%;
+  }
+
+  h3 {
+    text-align: left;
   }
 
   img {
     max-width: 500px;
-    flex: 1;
   } 
 
   .host-text {
@@ -255,5 +250,9 @@ footer p {
     flex-direction: row;
     text-align: left;
     align-items: center;
+  } 
+
+  .host div {
+    flex-grow: 1;
   }
 }
