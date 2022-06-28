@@ -65,6 +65,10 @@ main img {
   flex-direction: ;
 }
 
+.flex {
+  flex: 1;
+}
+
 /* -------  Navigation ------- */
 
 header {
@@ -242,7 +246,7 @@ footer p {
   } 
 
   .host-text {
-    flex: 1;
+    flex-grow: 1;
   }
 
   .host {
