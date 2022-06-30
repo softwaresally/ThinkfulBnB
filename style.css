@@ -172,14 +172,14 @@ footer p {
     margin-bottom: 20px;
   }
 
- /* section {
-    align-content: center;
+  section {
+ /*   align-content: center;
     text-align: center;
-    flex-direction: row;
+    flex-direction: row; */
     padding: 20px;
   }
 
-  header nav {
+ /* header nav {
     position: absolute;
     right: 0;
     font-size: 14px;
@@ -194,7 +194,7 @@ footer p {
     display: flex;
  /*   flex-wrap: wrap;  */
     justify-content: space-between;
-/*    padding: 10px; */
+  /*  padding-right: 10px; */
   }
 
   form div {
@@ -204,21 +204,26 @@ footer p {
     padding-right: 10px;
     text-align: left; */
     min-width: 0;
+/*    padding: 0 0 15px; */
   }
 
   form label {
     align-self: flex-start;
   }
 
-  form select, form input, form button {
+/*  form input {
     width: 80%;
+  } */
+
+  form select, form input, form button {
+    width: 100%; 
     margin-bottom: 5px;
   }
 
   form button {
     font-size: 16x;
     padding: 10px;
-    width: 20%;
+    width: auto; 
   }
 
   #about img {
@@ -240,10 +245,16 @@ footer p {
     flex-grow: 2;
   }
 
+  img {
+    width: 100%;
+    margin-bottom: 20%;
+  }
+
   #ideas img {
     display: flex;
     flex-direction: block;
     flex-grow: 1; 
+    margin: auto; 
   }
 
   #ideas div {
@@ -254,10 +265,12 @@ footer p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
+   }
 
   .ideas {
-    flex-basis: 50%;
+  /*  display: flex;
+    align-items: center; */
+  /*  flex-basis: 50%; */
   }
 
   h3 {
