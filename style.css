@@ -2,6 +2,7 @@
 
 body {
   font-family: "Lato", sans-serif;
+  width: fit-content;
 }
 
 h2 {
@@ -157,7 +158,6 @@ footer p {
   header {
     display: flex;
     align-items: flex-start;
-    
   }
 
   section {
@@ -179,6 +179,7 @@ footer p {
 
   form {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px;
   }
