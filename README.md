@@ -1,5 +1,11 @@
 # Thinkfulbnb
 
+As part of Thinkful, I was tasked with creating a ThinkfulBnB app, that allows users to book different types of overnight accommodations, based on the dates of their stay and where they would like to stay. 
+I had to create the frontend code for the website using a mobile-first approach, implement appropriate media queries for responsive design, use responsive navigation, and use appropriate input types for the form.
+
+In this project, I used CSS, HTML, media queries, and flexbox.
+My future goals for this project are to showcase my ability to create an eye-catching and aesthetically pleasing web application.
+
 Thinkfulbnb is a vacation rental website that allows people to rent out their homes to people who are seeking short-term accommodations in that locale. Thinkfulbnb hosts rent out different kinds of properties, including single rooms, apartments, and unique living spaces such as yachts, houseboats, yurts, tiny houses, and even renovated medieval castles.
 
 For this assignment, you will implement Thinkfulbnb's landing page in HTML & CSS.
